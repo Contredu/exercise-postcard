@@ -1,0 +1,68 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: rgba(65, 134, 212, 0.685);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+.postcard-header h1 {
+	width: 350px;
+	margin: 0px;
+	padding: 10px;
+	font-family: "Grechen Fuemen", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: x;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.body-right {
+	margin-top: 15px;
+}
+
+input {
+	border: none;
+}
+
+button {
+	background-color: darkgrey;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+p {
+	font-family: "Grechen Fuemen", serif;
+	font-weight: 400;
+	font-style: normal;
+	font: bold;
+}
